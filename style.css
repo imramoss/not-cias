@@ -16,7 +16,7 @@
   /* Cabeçalho */
   header {
     background-color: #230e53;
-    color: rgb(0, 0, 0);
+    color: rgb(245, 229, 229);
     padding: 20px;
     text-align: center;
   }
@@ -38,7 +38,7 @@
   
   /* Espaço do anúncio */
   #anuncio-topo {
-    background-color: #fffbe6;
+    background-color: #000000;
     padding: 15px;
     text-align: center;
     border-bottom: 1px solid #ccc;
