@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Futebol News</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Administração</h1>
+    <nav>
+      <a href="index.html">Voltar ao Início</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Adicionar Nova Notícia</h2>
+    <form id="form-noticia">
+      <input type="text" id="titulo" placeholder="Título da Notícia" required />
+      <textarea id="conteudo" placeholder="Conteúdo da Notícia" required></textarea>
+      <input type="file" id="imagem" accept="image/*" required />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <h2>Adicionar Anúncio Pago</h2>
+    <form id="form-anuncio">
+      <input type="text" id="titulo-anuncio" placeholder="Título do Anúncio" required />
+      <input type="url" id="link-anuncio" placeholder="Link do Anúncio" required />
+      <input type="file" id="imagem-anuncio" accept="image/*" required />
+      <button type="submit">Adicionar Anúncio</button>
+    </form>
+
+    <h2>Notícias Cadastradas</h2>
+    <ul id="lista-noticias"></ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Futebol News</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
